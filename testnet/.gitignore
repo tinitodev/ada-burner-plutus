@@ -4,3 +4,4 @@ node.socket
 protocol.json
 tx.*
 burner.*
+*.plutus
