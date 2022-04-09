@@ -18,7 +18,7 @@ import           PlutusTx              (Data (..))
 import qualified PlutusTx
 import qualified Ledger
 
-import           ADABurner.TypedBurner
+import           ADABurner.Burner
 
 dataToScriptData :: Data -> ScriptData
 dataToScriptData (Constr n xs) = ScriptDataConstructor n $ dataToScriptData <$> xs
